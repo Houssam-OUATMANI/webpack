@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <row>
+    <id>1</id>
+    <name>p1</name>
+    <price>200</price>
+  </row>
+  <row>
+    <id>2</id>
+    <name>p2</name>
+    <price>250</price>
+  </row>
+  <row>
+    <id>2</id>
+    <name>p2</name>
+    <price>300</price>
+  </row>
+</root>

@@ -7,9 +7,8 @@ module.exports = {
     path: path.resolve(__dirname, "dist"), // ** Chemin absolu du bundle
     filename: "bundle[contenthash].js", // ** le fichier empaqueter
     clean: true,
-    publicPath : ""
   },
-  mode: "development",
+  mode: "production",
 
   module: {
     rules: [
@@ -26,9 +25,4 @@ module.exports = {
     new HtmlWebpackPlugin({ template: "public/index.html" }),
     new MiniCssExtractPlugin({filename : "styles[contenthash].css"})
   ],
-  devServer : {
-    static : {directory : path.resolve(__dirname, "public") },
-    port : 9000,
-    open : true
-  }
 };
